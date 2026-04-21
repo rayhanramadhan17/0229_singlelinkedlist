@@ -116,3 +116,9 @@ bool delNode(int nim)
     }
 };
 
+    int main()
+{
+    LinkedList mhs;
+    int nim;
+    char ch;
+
