@@ -79,7 +79,7 @@ public:
     }
 
 bool delNode(int nim)
-{
+    {
     Node *current, *previous;
 
     if (!search(nim, previous, current))
@@ -92,4 +92,14 @@ bool delNode(int nim)
 
     delete current;
     return true;
-}
+    }
+
+    void traverse()
+    {
+        if (listEmpty())
+        {
+        cout << "\nList Kosong\n";
+        }
+    
+
+
